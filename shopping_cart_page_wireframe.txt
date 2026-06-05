@@ -1,0 +1,20 @@
+ShoppingCart Page Wireframe:
+
++-------------------------------------------------------------+
+| 🛒 Shopping Cart                                             |
++-------------------------------------------------------------+
+| Item                 Qty    Unit Price   Total              |
+| ----------------------------------------------------------- |
+| 🍎 Apple             2      $1.25         $2.50             |
+|   [ - ] [2] [ + ]   [Remove]                        |
+| 🍌 Banana            3      $0.75         $2.25             |
+|   [ - ] [3] [ + ]   [Remove]                        |
+| ----------------------------------------------------------- |
+| Subtotal:                                  $4.75          |
+|                                                             |
+| [Continue Shopping]  [Proceed to Checkout]                 |
++-------------------------------------------------------------+
+
+Notes:
+- Supports quantity updates and item removal.
+- Displays cart totals clearly.

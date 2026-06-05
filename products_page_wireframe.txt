@@ -1,0 +1,18 @@
+Products Page Wireframe:
+
++-------------------------------------------------------------+
+| 🍎 Products                                                 |
++-------------------------------------------------------------+
+| [Search / filter optional]                                  |
+|-------------------------------------------------------------|
+| [🍎 Apple]   Apple       $1.25 / item   [Qty: 1] [+ Add]      |
+| [🍌 Banana]  Banana      $0.75 / item   [Qty: 2] [+ Add]      |
+| [🍇 Grapes]  Grapes      $3.50 / lb     [Qty: 1] [+ Add]      |
+| [🍊 Orange]  Orange      $1.10 / item   [Qty: 3] [+ Add]      |
+| [🍓 Strawberry] Strawberry $2.90 / box  [Qty: 1] [+ Add]      |
+| ...                                                         |
++-------------------------------------------------------------+
+
+Notes:
+- Each product row includes emoji, name, price per unit, quantity selector, and add button.
+- Clicking a product name or image opens ProductDetails.

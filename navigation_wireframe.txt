@@ -1,0 +1,36 @@
+Expanded left navigation (desktop / wide view):
+
++-------------------------------------------------------------+
+| NAVIGATION                | HEADER                         |
+| +----------------------+  |------------------------------|
+| | 🍎 Products         |  | Page title                    |
+| | 🧃 ProductDetails    |  |                              |
+| | 🛒 ShoppingCart     |  |                              |
+| | ✅ Checkout         |  |                              |
+| +----------------------+  +------------------------------+
+|                                                           |
+| MAIN CONTENT                                               |
+|                                                           |
+|                                                           |
++-------------------------------------------------------------+
+
+Collapsed left navigation (narrow view < 300px):
+
++-----------------------------------+
+| NAV | HEADER                      |
+| +---+----------------------------|
+| |P| | Page title                 |
+| |D| |                            |
+| |C| |                            |
+| |O| |                            |
+| +---+----------------------------|
+|                                   |
+| MAIN CONTENT                      |
+|                                   |
++-----------------------------------+
+
+Abbreviations:
+- P = Products
+- D = ProductDetails
+- C = ShoppingCart
+- O = Checkout
