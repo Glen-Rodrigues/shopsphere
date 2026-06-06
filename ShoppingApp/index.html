@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit Shop Prototype</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <nav class="side-nav" aria-label="Main navigation">
+        <div class="brand">
+          <span class="brand-icon">🍉</span>
+          <span class="brand-text">Fruit Shop</span>
+        </div>
+        <button class="nav-link active" data-page="products" type="button">
+          <span class="nav-icon">🍎</span>
+          <span class="nav-label">Products</span>
+          <span class="nav-abbr">P</span>
+        </button>
+        <button class="nav-link" data-page="cart" type="button">
+          <span class="nav-icon">🛒</span>
+          <span class="nav-label">ShoppingCart</span>
+          <span class="nav-abbr">C</span>
+          <span class="cart-badge" id="cart-badge" aria-label="Items in cart"
+            >0</span
+          >
+        </button>
+        <button class="nav-link" data-page="checkout" type="button">
+          <span class="nav-icon">✅</span>
+          <span class="nav-label">Checkout</span>
+          <span class="nav-abbr">O</span>
+        </button>
+      </nav>
+
+      <div class="main-area">
+        <header class="page-header">
+          <h1 id="page-title">Products</h1>
+        </header>
+        <div id="notification" class="notification hidden"></div>
+        <main class="page-content">
+          <section id="products-page" class="page-section"></section>
+          <section id="cart-page" class="page-section hidden"></section>
+          <section id="checkout-page" class="page-section hidden"></section>
+          <section id="success-page" class="page-section hidden"></section>
+        </main>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
